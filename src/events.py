@@ -1,6 +1,6 @@
 
-class events(object):
-    def __init__(self, conn, list_name, del_name):
+class Events(object):
+    def __init__(self, conn, list_name):
         self.conn = conn
         self.lst = list_name
         self.del_lst = del_name
